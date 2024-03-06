@@ -19,7 +19,7 @@ Configura una base de datos MySQL y actualiza las credenciales en el archivo app
 Ejecuta la aplicación utilizando Gradle para el manejo de dependencias(build.gradle).
 Accede a la documentación de la API en http://localhost:8080/swagger-ui.html.
 En caso de no permitir acceder a la url: http://localhost:8080/swagger-ui.html
-colocar la url: https://editor.swagger.io/ y pegar el texto que se encuentra en el archivo llamado SwaggerEditor.txt
+colocar la url: https://editor.swagger.io/ y pegar en el editor de Swagger el texto que se encuentra en el archivo llamado SwaggerEditor.txt
 de esta manera se cargara manualmente en base a la configuración que tiene el archivo y se podrán consumir/probar los endpoints.
 
 Ejemplo de consumo de los endpoints:
