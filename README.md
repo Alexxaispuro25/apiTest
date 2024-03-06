@@ -25,7 +25,7 @@ de esta manera se cargara manualmente en base a la configuración que tiene el a
 Ejemplo de consumo de los endpoints:
 Método: POST
 Endpoint con url completa:http://localhost:8080/api/agregarProducto
-Parámetros:
+Body:
 {
     "nombre":"Pera",
     "descripcion":"a",
