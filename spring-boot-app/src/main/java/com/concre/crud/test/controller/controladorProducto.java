@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.swing.text.html.parser.Entity;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -61,7 +62,13 @@ public class controladorProducto {
 
     @GetMapping("/producto/")
     public ResponseEntity<List<Producto>> buscarProductos(){
-        return ResponseEntity.ok(service.obtenerProducto());
+        List<Producto> productos = service.obtenerProducto();
+        if (productos.isEmpty()) {
+            throw new ApiRequestException("No se encontraron datos ...");
+        } else {
+            // Si hay productos, devolver la lista normalmente
+            return ResponseEntity.ok(productos);
+        }
     }
 
     @GetMapping("/productoPorId/{id}")
