@@ -15,6 +15,8 @@ Borrar Producto: Elimina un producto de la base de datos por su ID.
 
 Configuración
 Clona este repositorio en tu máquina local.
+Luego abre o importa la carpeta spring-boot-app con su idle de preferencia en nuestro caso se uso IntelliJ.
+
 Configura una base de datos MySQL y actualiza las credenciales en el archivo application.properties.
 Para crear la base de datos utilizada en este proyecto corra la siguiente instrucción en un Script File de MySql:
 CREATE DATABASE IF NOT EXISTS produ;
