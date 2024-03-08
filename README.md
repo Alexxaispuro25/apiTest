@@ -24,10 +24,10 @@ o modificar la instrucción  spring.datasource.url del archivo application.prope
 
 
 Ejecuta la aplicación utilizando Gradle para el manejo de dependencias(build.gradle).
-Accede a la documentación de la API en http://localhost:8080/swagger-ui.html.
-En caso de no permitir acceder a la url: http://localhost:8080/swagger-ui.html
-colocar la url: https://editor.swagger.io/ y pegar en el editor de Swagger el texto que se encuentra en el archivo llamado SwaggerEditor.txt
-de esta manera se cargara manualmente en base a la configuración que tiene el archivo y se podrán consumir/probar los endpoints.
+Accede a la documentación de la API en http://localhost:8080/swagger-ui/index.html
+ya que se encuentre la api corriendo en el entorno local.
+
+
 
 Ejemplo de consumo de los endpoints:
 Método: POST
